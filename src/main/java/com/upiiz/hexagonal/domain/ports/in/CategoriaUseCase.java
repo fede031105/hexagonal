@@ -4,7 +4,7 @@ import com.upiiz.hexagonal.domain.models.Categoria;
 
 import java.util.List;
 
-//interfaz - contratos - puerto de entra
+//interfaz - contratos - puerto de entrad
 public interface CategoriaUseCase{
     Categoria registrar(Categoria categoria);
     List<Categoria> listar();
